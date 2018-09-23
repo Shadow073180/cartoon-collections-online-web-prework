@@ -30,5 +30,5 @@ def find_the_cheese(array)
   (cheese_types).find do |cheese|
     array.include? (cheese_types)
 end
-   cheese_types.find { |n| puts n; n ==  }
+   array.find { |n| puts n; n == cheese_types  }
 end
