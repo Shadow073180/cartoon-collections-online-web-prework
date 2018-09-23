@@ -27,10 +27,13 @@ end
 
 def find_the_cheese(list)
   cheese_type = ["cheddar", "gouda", "camembert"]
-  if cheese_type.any? {|x| list.include?(x) }
-  elsif !cheese_type.any? {|x| list.include?(x)}
-     return nil
-  else return cheese_type
+
+  cheese_type.each do |y|
+    if cheese_type.any? {|z| list.include?(z)}
+      return y 
+    else
+      return nil
+    end
   end
 end
   
