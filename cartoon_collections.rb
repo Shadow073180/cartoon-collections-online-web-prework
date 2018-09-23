@@ -30,7 +30,7 @@ cheese_types = "cheddar", "gouda", "camembert"
   array.include? (cheese_types)
     array.find do |cheese|
       if array.include?(cheese_types)
-        return cheese
+        return cheese_types
       else
         return nil
       end
