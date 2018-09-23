@@ -26,6 +26,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
+  puts array
   new_array = array.each do |x|
     new_array.push(x)
   end
