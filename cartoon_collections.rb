@@ -26,18 +26,6 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  puts array
-  new_array = array.each do |x|
-    new_array.push(x)
-  end
-cheese_types = "cheddar", "gouda", "camembert"
-  new_array.include? (cheese_types)
-   new_array.find do |cheese|
-      if new_array.include?(cheese)
-        return cheese
-      else
-        return nil
-      end
-   end 
+  return array
 end
   
